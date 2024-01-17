@@ -1,0 +1,33 @@
+#EXTM3U
+#EXT-X-VERSION:3
+
+
+# Video with (256x144) resolution
+#EXT-X-STREAM-INF:BANDWIDTH=102.4000,RESOLUTION=256x144,AUDIO=content-audio,SUBTITLES=content-subtitle
+144/output_144.m3u8
+
+
+# Video with (1280x720) resolution
+#EXT-X-STREAM-INF:BANDWIDTH=5120000,RESOLUTION=1280x720,AUDIO=content-audio,SUBTITLES=content-subtitle
+720/output_720.m3u8
+
+
+# Video with (1920x1080) resolution
+#EXT-X-STREAM-INF:BANDWIDTH=8192000,RESOLUTION=1920x1080,AUDIO=content-audio,SUBTITLES=content-subtitle
+1080/output_1080.m3u8
+
+
+# Audio: english
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="content-audio",LANGUAGE="en",NAME="english",DEFAULT=YES,AUTOSELECT=YES,URI="https://1ckwsmcn-3000.inc1.devtunnels.ms/1704691696988/audio/output_english.m3u8"
+
+
+# Audio: spanish
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="content-audio",LANGUAGE="es",NAME="spanish",DEFAULT=NO,AUTOSELECT=YES,URI="https://1ckwsmcn-3000.inc1.devtunnels.ms/1704691696988/audio/output_spanish.m3u8"
+
+
+# Subtitle: english
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="content-subtitle",LANGUAGE="en",NAME="english",DEFAULT=NO,AUTOSELECT=YES,URI="https://1ckwsmcn-3000.inc1.devtunnels.ms/1704691696988/subtitle/subtitle_english.m3u8"
+
+
+# Subtitle: spanish
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="content-subtitle",LANGUAGE="es",NAME="spanish",DEFAULT=NO,AUTOSELECT=YES,URI="https://1ckwsmcn-3000.inc1.devtunnels.ms/1704691696988/subtitle/subtitle_spanish.m3u8"
